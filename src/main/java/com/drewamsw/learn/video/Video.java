@@ -24,6 +24,6 @@ public class Video {
 
     @Id
     private UUID id;
-    private User user;
+    //private User user;
     private String name;
 }
