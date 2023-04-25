@@ -1,6 +1,5 @@
 package com.drewamsw.learn.video;
 
-import com.drewamsw.learn.user.User;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
@@ -24,6 +23,5 @@ public class Video {
 
     @Id
     private UUID id;
-    //private User user;
     private String name;
 }
